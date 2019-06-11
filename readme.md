@@ -37,6 +37,8 @@ When the end of the row is reached a new one will be started.
       <div>col</div>
     </div>
 
+---
+
 ## Offsets
 
 The grid cells can be offset from 1 to 23 columns with `go[1-23]`.
