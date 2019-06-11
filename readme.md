@@ -25,6 +25,18 @@ The grid wrapper comes in 3 flavors including base 12, base 20 and base 24.
 
 ---
 
+## Automatic
+
+Atomic Grid will automatically fill in cells from left to right.
+Rows are implied and not needed.
+When the end of the row is reached a new one will be started.
+
+    <div class="g-12">
+      <div>col</div>
+      <div>col</div>
+      <div>col</div>
+    </div>
+
 ## Offsets
 
 The grid cells can be offset from 1 to 23 columns with `go[1-23]`.
