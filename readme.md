@@ -17,7 +17,7 @@ https://codepen.io/leetheguy/pen/LKYpqb
 
 The grid system consists of a grid wrapper, offset and span tags.
 Rows are implied and not needed.
-The grid wrapper comes in 3 flavors including base 12, base 20 and base 24.
+The grid wrapper comes in 3 flavors including 12-column, 20-column, and 24-column.
 
     <div class="g-12"></div>
     <div class="g-20"></div>
