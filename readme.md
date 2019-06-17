@@ -92,13 +92,13 @@ Columns will shrink down to no smaller than 6rem.
 Then they will begin to stack.
 
     <div class="g-fit">
-      <div class="">column</div>
-      <div class="">column</div>
-      <div class="">column</div>
-      <div class="">column</div>
-      <div class="">column</div>
-      <div class="">column</div>
-      <div class="">column</div>
+      <div>column</div>
+      <div>column</div>
+      <div>column</div>
+      <div>column</div>
+      <div>column</div>
+      <div>column</div>
+      <div>column</div>
     </div>
 
 ---
