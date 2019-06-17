@@ -27,7 +27,8 @@ The grid wrapper comes in 3 flavors including 12-column, 20-column, and 24-colum
 ## Automatic
 
 Atomic Grid will automatically fill in cells from left to right.
-Rows are implied and not needed.
+Atomic Grid grids are rows and will stack automatically.
+In other words, rows are implied and not needed.
 When the end of the row is reached a new one will be started.
 
     <div class="g-12">
@@ -79,6 +80,25 @@ Grids can be easily nested.
         <div class="gs4">column</div>
         <div class="gs4">column</div>
       </div>
+    </div>
+
+---
+
+## Auto Fit
+
+Grids can have any number of columns with auto-fit.
+Spans work with auto-fit grids, but offsets don't.
+Columns will shrink down to no smaller than 6rem.
+Then they will begin to stack.
+
+    <div class="g-fit">
+      <div class="">column</div>
+      <div class="">column</div>
+      <div class="">column</div>
+      <div class="">column</div>
+      <div class="">column</div>
+      <div class="">column</div>
+      <div class="">column</div>
     </div>
 
 ---

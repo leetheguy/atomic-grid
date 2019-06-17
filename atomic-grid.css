@@ -1,6 +1,7 @@
 .g-12 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  align-content: stretch;
 }
 
 .g-20 {
@@ -12,6 +13,13 @@
   display: grid;
   grid-template-columns: repeat(24, 1fr);
 }
+
+.g-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+}
+
+.gr { grid-column-end: auto; }
 
 .gs1 { grid-column-end: span 1; }
 .gs2 { grid-column-end: span 2; }
