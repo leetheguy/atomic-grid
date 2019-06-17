@@ -16,11 +16,12 @@ https://codepen.io/leetheguy/pen/LKYpqb
 ## The Grid
 
 The grid system consists of a grid wrapper, offset and span tags.
-The grid wrapper comes in 3 flavors including 12-column, 20-column, and 24-column.
+The grid wrapper comes in 4 flavors including 12-column, 20-column, 24-column, and auto-fit.
 
     <div class="g-12"></div>
     <div class="g-20"></div>
     <div class="g-24"></div>
+    <div class="g-fit"></div>
 
 ---
 
